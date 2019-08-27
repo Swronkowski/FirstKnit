@@ -1,0 +1,102 @@
+---
+title: "First Knit"
+author: "Shelly Wronkowski"
+date: "Date, Aug 19, 2019"
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+---
+
+### `r as.character(Sys.Date())`
+
+```{r include=FALSE,echo=FALSE}
+require(tidyverse)
+if(!require("imager")) {install.packages("imager");require("imager")}
+
+```
+
+```{r echo=FALSE,out.width='100%'}
+xx<-getwd()
+Drive_ltr <- strtrim(xx,2)
+yy <- str_glue("{Drive_ltr}\\AAA_Owner_Info\\My_photo2.jpg")
+my_pict <- load.image(yy)
+plot(my_pict,axes=FALSE,main="I'm Confused")
+```
+
+# A Little Survey
+
+Here are just a few questions so I can get to know you and so you can get practice submitting an assignment in Canvas.  For each question, insert your answer underneath. Make sure each answer is at the minimum a complete sentence with correctly spelled words and correct puncuation. Half the points in this assignment depend on your picture and name being correct!!  Be sure to put your photo in the AAA_Owner_Info folder and call it My_photo.jpg after first renaming the current one to Koala.jpg . 
+
+##Where are you now?  
+What row are you in, front,middle or back?  Do you usually choose a similiar row in other classes? What is the computer number where you are sitting?  How on a scale of 1 to 10 (1=low, 10=high) How you feel about periodic seat re-assignment, say how and why. Teams, have you ever worked on one in a class setting?  
+
+
+###my answer     
+  
+  I am sitting towards the back of the class. I typically choose seats in the back, due to arriving later then others, and those tend to be the only seats available when I arrive. I am currently sitting at computer number twenty-eight. I do not like periodic seat re-assignment, I tend to work with others around me if I am not understanding something. Also I like to feel comfortable while I am working, if there are people I am unfamilar with I tend to get distracted. I have worked with teams in a class setting. I like working as teams because there are somethings that I may not understand but other will and we can work together to help eachother.  
+   
+     
+
+
+##Others and You?   
+What name do you prefer to be called by your classmates and instructor, if your buddys call you something but you want me to call you something else - what would that be? 
+
+###my answer     
+  
+   I would prefer my classmates and Instructor to call me Shelly. 
+ 
+
+
+
+
+##Aspirations?   
+What do you want to achieve in life?  What college subject do you think would be of the greatest interest to you? What degree or certificate are you trying to achieve?
+
+###my answer     
+  
+  I want to be successful and be able to take care of my family. Currently I am very interested in deaf studies, I think ASL and the deaf culture are beautiful. I am also interested in nursing, I love to help people. So as of now I am currently working on a double major in nursing and Interpreter Training.  
+ 
+
+
+
+
+##Past adventures?  
+Have you ever gone to foreign countries, if so which ones, if not Where might you go in the future?  Have you ever been in the military, if so which branch, if not which branch would you choose if you got drafted, and why?
+
+###my answer     
+  
+  I have not yet gone to a foreign country, but I would love to go to Italy, Japan, and Ireland. I have not served in the military, but if I did I think I would either pick the Marines or Navy. Marines because my Grandfather and Cousin were both in the Marines and the Navy because they are the only branch that I know of the has nurses or a medical type career. 
+   
+  
+
+
+
+
+##Why are you taking Math 115?  
+What grade do you need to attain in stats to not upset your future plans, What is your plan?
+ 
+
+###my answer     
+  
+   I need to have at least a "B" or "C". I just need to pass this class in order to continue my pre reqs for nursing. 
+ 
+
+
+
+
+
+##Homework Help and Getting around?  
+On a scale of 1 to 10, where 1 is a total dummy (doesn't know a mouse from a keyboard) and 10 is a complete geek (knows computer stuff in and out) How do you rate yourself?  Do you have a computer you can use at home? If so, what kind is it (windows, Apple, Linux)? Do you have internet access at home?  
+How do you get to class? Are there issues that limit when you can be at the college?Where and when did you attend high school?  Do you currently have a job?
+
+###my answer   
+  
+   
+  I would rate myself 6. I know a little about computers and how to navigate them but I dont really know a lot of tech stuff. I have a laptop that I use at home. It is a windows computer. I do have internet access at home. 
+  
+  I drive myself to and from class. I do have Issues that limit the time I can be at College. I am currently working two jobs and am only available to be at college at the times I have classes and Fridays at the moment. I attended high school from 2007 -2010. 
+
+
+
+
